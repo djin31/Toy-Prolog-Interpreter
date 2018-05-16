@@ -30,3 +30,10 @@ To run test mode which works directly over AST sans lex and yacc
 $ make test
 $ ./tester
 ```
+
+## Issues which need to be seen
+
+* Parser errors with cut at last position
+* Instances of unbound recursion at some examples with cut
+* Addition of 'is' operator required
+* Work upon backtracker.ml to make allow interpreter with lazy evaluation techniques
